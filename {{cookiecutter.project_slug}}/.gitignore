@@ -1,3 +1,15 @@
+# exclude compiled binaries
+bin/
+
+# exclude data from source control by default
+/data/external
+/data/interim
+/data/final
+/data/raw
+
+# MacOS
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -90,15 +102,3 @@ target/
 
 # IPython NB Checkpoints
 .ipynb_checkpoints/
-
-# exclude compiled binaries
-bin/
-
-# exclude data from source control by default
-/data/external
-/data/interim
-/data/processed
-/data/raw
-
-# exclude external models from source control
-/src/external/
