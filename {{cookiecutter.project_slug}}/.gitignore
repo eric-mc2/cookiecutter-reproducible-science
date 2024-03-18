@@ -2,10 +2,7 @@
 bin/
 
 # exclude data from source control by default
-/data/external
-/data/interim
-/data/final
-/data/raw
+/data/
 
 # MacOS
 .DS_Store
