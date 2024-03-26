@@ -21,6 +21,10 @@ Install `cookiecutter` command line:
 
 `pip install cookiecutter`    
 
+For the error: "Unable to load extension: No module named 'jinja2_time'"
+
+`pip install jinja2_time`
+
 To start a new science project:
 
 `cookiecutter gh:eric-mc2/cookiecutter-reproducible-science`
